@@ -1,12 +1,15 @@
 sbin_PROGRAMS = iceccd
 
 iceccd_SOURCES = \
-	ncpus.c \
-	main.cpp \
-	serve.cpp \
-	workit.cpp \
+	client.cpp \
+	clients.cpp \
+	daemon.cpp \
 	environment.cpp \
-	load.cpp
+	load.cpp \
+	main.cpp \
+	ncpus.c \
+	serve.cpp \
+	workit.cpp
 
 iceccd_LDADD = \
 	../services/libicecc.la \
