@@ -1,3 +1,7 @@
+[![Stories in Ready](https://badge.waffle.io/icecc/icecream.png?label=ready&title=Ready)](https://waffle.io/icecc/icecream)
+[![Coverage Status](https://coveralls.io/repos/icecc/icecream/badge.svg)](https://coveralls.io/r/icecc/icecream)
+[![Coverity Scan Build Status](https://scan.coverity.com/projects/1241/badge.svg?flat=1)](https://scan.coverity.com/projects/1241)
+
 [Icecream](Icecream) was created by SUSE based on distcc. Like distcc,
 [Icecream](Icecream) takes compile jobs from a build and
 distributes it among remote machines allowing a parallel build. But
